@@ -1,0 +1,3 @@
+# Referenced at C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:23
+-keep class ucsd.cse110fa16.group14.ipark.iPark { <init>(...); }
+

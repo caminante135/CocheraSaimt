@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="MAPA" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="AJUSTES" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="REVISIÓN" />
+    </group>
+
+    <item android:title="NOTIFICACIÓN">
+        <menu>
+            <item
+                android:id="@+id/nav_fourth_layout"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Compose" />
+            <item
+                android:id="@+id/nav_fifth_layout"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Report" />
+            <item
+                android:id="@+id/nav_sixth_layout"
+                android:icon="@mipmap/sos"
+                android:title="Emergency" />
+
+        </menu>
+    </item>
+
+</menu>

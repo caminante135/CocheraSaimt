@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="ucsd.cse110fa16.group14.ipark.comment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Su comentario no será visto por nadie, excepto por la  empresa SAIMT"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/userComment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:ems="10"
+        android:fadingEdge="horizontal"
+        android:gravity="top|fill_horizontal"
+        android:hint=" Tu opinión importa para mejorar nuestro servicio"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textEmailAddress|textEmailSubject|textPersonName|textPostalAddress"
+        android:textColor="#202020"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="CANCELAR"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="ENVIAR"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/cancelButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rating"
+        android:layout_centerHorizontal="true"
+        android:text=" CALIFICA TU ESTACIONAMIENTO"
+        android:textColor="#696969"
+        android:textSize="18sp" />
+
+</RelativeLayout>
