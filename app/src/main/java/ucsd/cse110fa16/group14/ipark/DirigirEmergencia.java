@@ -111,7 +111,7 @@ public class DirigirEmergencia extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DirigirEmergencia.this, OwnerHomepage.class);
+                Intent intent = new Intent(DirigirEmergencia.this, PaginaInicio.class);
                 startActivity(intent);
             }
         });

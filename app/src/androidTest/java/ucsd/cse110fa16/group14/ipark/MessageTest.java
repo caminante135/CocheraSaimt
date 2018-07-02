@@ -22,7 +22,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 @LargeTest
 public class MessageTest {
     @Rule
-    public ActivityTestRule<UserHomepage> mActivityTestRule = new ActivityTestRule<>(UserHomepage.class);
+    public ActivityTestRule<PaginaUsuario> mActivityTestRule = new ActivityTestRule<>(PaginaUsuario.class);
     
     @Test
     public void clickMessage() throws InterruptedException {

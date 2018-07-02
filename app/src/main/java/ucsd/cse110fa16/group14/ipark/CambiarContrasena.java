@@ -52,7 +52,7 @@ public class CambiarContrasena extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (auth.getCurrentUser() != null) {
-                    Intent intent = new Intent(CambiarContrasena.this, UserHomepage.class);
+                    Intent intent = new Intent(CambiarContrasena.this, PaginaUsuario.class);
                     startActivity(intent);
                 } else {
                     Intent intent = new Intent(CambiarContrasena.this, InicioSesion.class);

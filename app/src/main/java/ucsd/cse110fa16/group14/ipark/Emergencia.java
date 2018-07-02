@@ -129,7 +129,7 @@ public class Emergencia extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Emergencia.this, UserHomepage.class);
+                Intent intent = new Intent(Emergencia.this, PaginaUsuario.class);
                 startActivity(intent);
 
             }

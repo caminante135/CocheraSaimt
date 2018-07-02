@@ -55,7 +55,7 @@ public class conteo extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         final Bundle bundle = getIntent().getExtras();
-        Intent intent = new Intent(conteo.this, UserHomepage.class);
+        Intent intent = new Intent(conteo.this, PaginaUsuario.class);
         intent.putExtra("arriveHour", bundle.getInt("arriveHour"));
         intent.putExtra("arriveMin", bundle.getInt("arriveMin"));
         intent.putExtra("departHour", bundle.getInt("departHour"));
@@ -179,7 +179,7 @@ public class conteo extends AppCompatActivity {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
 
-                            Intent intent = new Intent(conteo.this, UserHomepage.class);
+                            Intent intent = new Intent(conteo.this, PaginaUsuario.class);
                             startActivity(intent);
 
                             dialog.cancel();
@@ -379,7 +379,7 @@ public class conteo extends AppCompatActivity {
                                 }
                                 iLink.resetUserReservation();
                                 iLink.checkout( spot ,startTimeInSec);
-                                Intent intent = new Intent(conteo.this, UserHomepage.class);
+                                Intent intent = new Intent(conteo.this, PaginaUsuario.class);
 
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                 tempRes.removeValue();
@@ -529,7 +529,7 @@ public class conteo extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(conteo.this, MapDirectional.class);
+                Intent intent = new Intent(conteo.this, Mapa.class);
                 startActivity(intent);
             }
         });
@@ -549,7 +549,7 @@ public class conteo extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(conteo.this, UserHomepage.class);
+                Intent intent = new Intent(conteo.this, PaginaUsuario.class);
                 intent.putExtra("arriveHour", bundle.getInt("arriveHour"));
                 intent.putExtra("arriveMin", bundle.getInt("arriveMin"));
                 intent.putExtra("departHour", bundle.getInt("departHour"));

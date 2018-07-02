@@ -8,17 +8,14 @@ import android.support.test.espresso.action.ViewActions;
 import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -31,8 +28,8 @@ public class PriceSettingTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Rule
-    public ActivityTestRule<Settings> mActivityRule = new ActivityTestRule<>(
-            Settings.class);
+    public ActivityTestRule<Configuracion> mActivityRule = new ActivityTestRule<>(
+            Configuracion.class);
 
     // expected outcome: owner is able to change the price
     // results: test passed

@@ -105,7 +105,7 @@ public class activity_revision extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // if nopButt pressed, send user to the User Homepage
-                Intent intent = new Intent(activity_revision.this, UserHomepage.class);
+                Intent intent = new Intent(activity_revision.this, PaginaUsuario.class);
                 startActivity(intent);
             }
         });

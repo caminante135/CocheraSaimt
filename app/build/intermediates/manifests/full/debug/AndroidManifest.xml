@@ -29,7 +29,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ucsd.cse110fa16.group14.ipark.LoginPage" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.InicioSesion" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,11 +43,11 @@
 
         <activity android:name="ucsd.cse110fa16.group14.ipark.RegistroConductor" />
         <!-- >>>>>>> 6e2eecc5cfbcfd58750e585524413a7a3e4366be -->
-        <activity android:name="ucsd.cse110fa16.group14.ipark.Payment" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Pago" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Reloj" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.activity_revision" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.CountDownCheckOut" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.PersonalInfo" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.conteo" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.InformacionPersonal" />
         =======
 
         >>>>>>> d616484625deada12c4b671e2a9ea916f5f9369b
@@ -56,31 +56,31 @@
         <activity android:name="ucsd.cse110fa16.group14.ipark.DirigirMapa" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Comentario" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Reservation" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.MapDirectional" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Mapa" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.ReportIllegal" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Emergencia" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.Settings" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Configuracion" />
         <activity
-            android:name="ucsd.cse110fa16.group14.ipark.PopUp"
+            android:name="ucsd.cse110fa16.group14.ipark.Mostrar"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.RecieveReports" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.Messages" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.RecibirReportes" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Mensajes" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.ReportarError" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.ForgotPassword" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.RecieveNewParking" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.CambiarContrasena" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.RecibirEstacionamiento" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Resume" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="ucsd.cse110fa16.group14.ipark.UserHomepage" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.History_2_user" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.UserReviewHistory" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.MessageUsersActivity" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.PaginaUsuario" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.HistoriaUsuario" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.HistorialReservas" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.MensajesUsuariosActivity" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.AyudarUsuario" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.OwnerHomepage" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.PaginaInicio" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.ElegirHoraSalidaActivity" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.UserReviewHistoryPage2" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.HistorialInformes" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

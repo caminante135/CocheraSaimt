@@ -36,7 +36,7 @@ public class ReportIllegal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ReportIllegal.this, MapDirectional.class);
+                Intent intent = new Intent(ReportIllegal.this, Mapa.class);
                 startActivity(intent);
 
             }
@@ -51,7 +51,7 @@ public class ReportIllegal extends AppCompatActivity {
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Intent intent = new Intent(ReportIllegal.this, UserReviewHistory.class);
+                                Intent intent = new Intent(ReportIllegal.this, HistorialReservas.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                 startActivity(intent);
                             }

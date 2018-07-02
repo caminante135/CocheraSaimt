@@ -7,17 +7,14 @@ import android.support.test.espresso.action.ViewActions;
 import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -30,8 +27,8 @@ public class MessageUserTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Rule
-    public ActivityTestRule<MessageUsersActivity> mActivityRule = new ActivityTestRule<>(
-            MessageUsersActivity.class);
+    public ActivityTestRule<MensajesUsuariosActivity> mActivityRule = new ActivityTestRule<>(
+            MensajesUsuariosActivity.class);
 
     // expected outcome: owner is able to send message to users
     // results: test passed

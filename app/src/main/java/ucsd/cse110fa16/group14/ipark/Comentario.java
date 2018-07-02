@@ -95,7 +95,7 @@ public class Comentario extends AppCompatActivity {
                 Toast.makeText(Comentario.this, "¡Gracias por su aporte!",
                         Toast.LENGTH_LONG).show();
 
-                Intent intent = new Intent(Comentario.this, UserHomepage.class);
+                Intent intent = new Intent(Comentario.this, PaginaUsuario.class);
                 startActivity(intent);
             }
         });
@@ -105,7 +105,7 @@ public class Comentario extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // if cancelButton is pressed, send user to User Homepage
-                Intent intent = new Intent(Comentario.this, UserHomepage.class);
+                Intent intent = new Intent(Comentario.this, PaginaUsuario.class);
                 startActivity(intent);
             }
         });

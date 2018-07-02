@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.NumberPicker;
 import com.google.firebase.auth.FirebaseAuth;
 import org.hamcrest.Matcher;
-import org.hamcrest.Matchers;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +17,6 @@ import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.withClassName;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 /**
@@ -47,7 +45,7 @@ public class RelojTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Rule
-    public ActivityTestRule<UserHomepage> mActivityTestRule = new ActivityTestRule<>(UserHomepage.class);
+    public ActivityTestRule<PaginaUsuario> mActivityTestRule = new ActivityTestRule<>(PaginaUsuario.class);
 
     @Test
     public void selectReserve() throws InterruptedException {

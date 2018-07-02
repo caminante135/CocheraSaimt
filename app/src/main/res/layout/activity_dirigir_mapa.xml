@@ -12,7 +12,7 @@
     tools:context="ucsd.cse110fa16.group14.ipark.DirigirMapa">
 
 
-    <ucsd.cse110fa16.group14.ipark.MapInteractive
+    <ucsd.cse110fa16.group14.ipark.MapaInteractivo
         android:layout_width="match_parent"
         android:layout_height="380dp"
         android:layout_alignParentBottom="true"

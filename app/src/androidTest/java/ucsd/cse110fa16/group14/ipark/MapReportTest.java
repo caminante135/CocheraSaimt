@@ -6,23 +6,17 @@ import org.junit.Test;
 /**
  * Created by yuriguan on 11/28/16.
  */
-import android.support.test.espresso.action.ViewActions;
 import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+
 import org.junit.runner.RunWith;
-import com.google.firebase.auth.FirebaseAuth;
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
+
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import android.support.test.rule.ActivityTestRule;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuth;
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
+
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import android.support.test.rule.ActivityTestRule;
-import com.google.firebase.auth.FirebaseAuth;
+
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -41,8 +35,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 public class MapReportTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
     @Rule
-    public ActivityTestRule<MapDirectional> mActivityRule = new ActivityTestRule<>(
-            MapDirectional.class);
+    public ActivityTestRule<Mapa> mActivityRule = new ActivityTestRule<>(
+            Mapa.class);
     @Test
     public void clickEmergency() throws InterruptedException{
         auth.signInWithEmailAndPassword("sr_misty@yahoo.com", "password");

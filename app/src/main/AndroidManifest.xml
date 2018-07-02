@@ -26,11 +26,11 @@
 
         <activity android:name=".RegistroConductor" />
         <!-- >>>>>>> 6e2eecc5cfbcfd58750e585524413a7a3e4366be -->
-        <activity android:name=".Payment" />
+        <activity android:name=".Pago" />
         <activity android:name=".Reloj" />
         <activity android:name=".activity_revision" />
         <activity android:name=".conteo" />
-        <activity android:name=".PersonalInfo" />
+        <activity android:name=".InformacionPersonal" />
         =======
 
         >>>>>>> d616484625deada12c4b671e2a9ea916f5f9369b
@@ -39,31 +39,31 @@
         <activity android:name=".DirigirMapa" />
         <activity android:name=".Comentario" />
         <activity android:name=".Reservation" />
-        <activity android:name=".MapDirectional" />
+        <activity android:name=".Mapa" />
         <activity android:name=".ReportIllegal" />
         <activity android:name=".Emergencia" />
-        <activity android:name=".Settings" />
+        <activity android:name=".Configuracion" />
         <activity
-            android:name=".PopUp"
+            android:name=".Mostrar"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".RecieveReports" />
-        <activity android:name=".Messages" />
+        <activity android:name=".RecibirReportes" />
+        <activity android:name=".Mensajes" />
         <activity android:name=".ReportarError" />
         <activity android:name=".CambiarContrasena" />
-        <activity android:name=".RecieveNewParking" />
+        <activity android:name=".RecibirEstacionamiento" />
         <activity android:name=".Resume">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".UserHomepage" />
+        <activity android:name=".PaginaUsuario" />
         <activity android:name=".HistoriaUsuario" />
-        <activity android:name=".UserReviewHistory" />
-        <activity android:name=".MessageUsersActivity" />
+        <activity android:name=".HistorialReservas" />
+        <activity android:name=".MensajesUsuariosActivity" />
         <activity android:name=".AyudarUsuario" />
-        <activity android:name=".OwnerHomepage" />
+        <activity android:name=".PaginaInicio" />
         <activity android:name=".ElegirHoraSalidaActivity" />
-        <activity android:name=".UserReviewHistoryPage2" />
+        <activity android:name=".HistorialInformes" />
 
     </application>
 

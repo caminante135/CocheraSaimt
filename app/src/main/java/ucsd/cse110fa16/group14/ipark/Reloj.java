@@ -36,7 +36,7 @@ public class Reloj extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         // if back button is pressed, send user to User Homepage
-        Intent intent = new Intent(Reloj.this, UserHomepage.class);
+        Intent intent = new Intent(Reloj.this, PaginaUsuario.class);
         startActivity(intent);
     }
 
@@ -71,7 +71,7 @@ public class Reloj extends AppCompatActivity {
             alertNotReserved.setNegativeButton("No", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Intent intent = new Intent(Reloj.this, UserHomepage.class);
+                    Intent intent = new Intent(Reloj.this, PaginaUsuario.class);
                     startActivity(intent);
                     dialog.cancel();
                 }
@@ -213,7 +213,7 @@ public class Reloj extends AppCompatActivity {
             }
             //@Override
             //public void onClick(View v) {
-            //Intent intent = new Intent(Reloj.this, Payment.class);
+            //Intent intent = new Intent(Reloj.this, Pago.class);
             //startActivity(intent);
 
 
@@ -245,7 +245,7 @@ public class Reloj extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Reloj.this, UserHomepage.class);
+                Intent intent = new Intent(Reloj.this, PaginaUsuario.class);
                 startActivity(intent);
             }
         });

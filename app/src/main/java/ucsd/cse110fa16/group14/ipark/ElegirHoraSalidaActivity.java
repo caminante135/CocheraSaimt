@@ -158,7 +158,7 @@ public class ElegirHoraSalidaActivity extends AppCompatActivity {
                 }
                 // Else accept response
                 else {
-                    Intent intent = new Intent(ElegirHoraSalidaActivity.this, Payment.class);
+                    Intent intent = new Intent(ElegirHoraSalidaActivity.this, Pago.class);
                     intent.putExtra("arriveHour", bundle.getInt("arriveHour"));
                     intent.putExtra("arriveMin", bundle.getInt("arriveMin"));
                     intent.putExtra("departHour", hourEntered);
@@ -168,7 +168,7 @@ public class ElegirHoraSalidaActivity extends AppCompatActivity {
             }
             //@Override
             //public void onClick(View v) {
-            //Intent intent = new Intent(Reloj.this, Payment.class);
+            //Intent intent = new Intent(Reloj.this, Pago.class);
             //startActivity(intent);
 
 
@@ -204,7 +204,7 @@ public class ElegirHoraSalidaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // if homeButt is pressed, send user to User Homepage
-                Intent intent = new Intent(ElegirHoraSalidaActivity.this, UserHomepage.class);
+                Intent intent = new Intent(ElegirHoraSalidaActivity.this, PaginaUsuario.class);
                 startActivity(intent);
             }
         });

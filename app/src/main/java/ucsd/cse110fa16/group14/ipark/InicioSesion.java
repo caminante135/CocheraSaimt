@@ -92,8 +92,8 @@ public class InicioSesion extends AppCompatActivity {
 
                     Intent intent;
                     if (username.equals(admin))
-                        intent = new Intent(InicioSesion.this, OwnerHomepage.class);
-                    else intent = new Intent(InicioSesion.this, UserHomepage.class);
+                        intent = new Intent(InicioSesion.this, PaginaInicio.class);
+                    else intent = new Intent(InicioSesion.this, PaginaUsuario.class);
 
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
@@ -253,9 +253,9 @@ public class InicioSesion extends AppCompatActivity {
                                     Toast.LENGTH_LONG).show();
                             Intent intent;
                             if (email.equals("admin@ipark.com")) {
-                                intent = new Intent(InicioSesion.this, OwnerHomepage.class);
+                                intent = new Intent(InicioSesion.this, PaginaInicio.class);
                             } else {
-                                intent = new Intent(InicioSesion.this, UserHomepage.class);
+                                intent = new Intent(InicioSesion.this, PaginaUsuario.class);
                             }
                             progress.dismiss();
                             intent.putExtra("Username", username);

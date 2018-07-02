@@ -74,7 +74,7 @@ public class CuentaRegresiva extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // if home button is pressed, send user to Owner Homepage
-                Intent intent = new Intent(CuentaRegresiva.this, OwnerHomepage.class);
+                Intent intent = new Intent(CuentaRegresiva.this, PaginaInicio.class);
                 startActivity(intent);
             }
         });

@@ -17,7 +17,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 public class UserHistoryTest2 {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
     @Rule
-    public ActivityTestRule<UserReviewHistoryPage2> mActivityTestRule = new ActivityTestRule<>(UserReviewHistoryPage2.class);
+    public ActivityTestRule<HistorialInformes> mActivityTestRule = new ActivityTestRule<>(HistorialInformes.class);
     @Test
     public void clickHome() throws InterruptedException {
         auth.signInWithEmailAndPassword("sr_misty@yahoo.com", "password");
