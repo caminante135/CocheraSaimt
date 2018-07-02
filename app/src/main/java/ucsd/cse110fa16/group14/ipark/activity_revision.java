@@ -75,11 +75,11 @@ public class activity_revision extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        // get the correct values for Clockin, Clockout and Rate from Firebase
+        // get the correct values for Reloj, Clockout and Rate from Firebase
         root.child(date + " " + clockInTime).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                startTimeText.setText(dataSnapshot.child("Clockin").getValue(String.class));
+                startTimeText.setText(dataSnapshot.child("Reloj").getValue(String.class));
                 endTimeText.setText(dataSnapshot.child("Clockout").getValue(String.class));
                 priceText.setText(dataSnapshot.child("Rate").getValue(String.class));
             }
@@ -95,7 +95,7 @@ public class activity_revision extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // if commentButt pressed, send user to the Comment page
-                Intent intent = new Intent(activity_revision.this, comment.class);
+                Intent intent = new Intent(activity_revision.this, Comentario.class);
                 startActivity(intent);
             }
         });

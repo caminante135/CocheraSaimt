@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginPage"/>
+        <activity android:name=".InicioSesion"/>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,32 +24,32 @@
         <!-- ======= -->
         <!-- <activity android:name=".FoundSpaceAndReserve" /> -->
 
-        <activity android:name=".DriverRegistration" />
+        <activity android:name=".RegistroConductor" />
         <!-- >>>>>>> 6e2eecc5cfbcfd58750e585524413a7a3e4366be -->
         <activity android:name=".Payment" />
-        <activity android:name=".Clockin" />
+        <activity android:name=".Reloj" />
         <activity android:name=".activity_revision" />
-        <activity android:name=".CountDownCheckOut" />
+        <activity android:name=".conteo" />
         <activity android:name=".PersonalInfo" />
         =======
 
         >>>>>>> d616484625deada12c4b671e2a9ea916f5f9369b
-        <activity android:name=".CommentBoss" />
-        <activity android:name=".BossEmergency" />
+        <activity android:name=".CuentaRegresiva" />
+        <activity android:name=".DirigirEmergencia" />
         <activity android:name=".DirigirMapa" />
-        <activity android:name=".comment" />
+        <activity android:name=".Comentario" />
         <activity android:name=".Reservation" />
         <activity android:name=".MapDirectional" />
         <activity android:name=".ReportIllegal" />
-        <activity android:name=".Emergency" />
+        <activity android:name=".Emergencia" />
         <activity android:name=".Settings" />
         <activity
             android:name=".PopUp"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity android:name=".RecieveReports" />
         <activity android:name=".Messages" />
-        <activity android:name=".ErrorReport" />
-        <activity android:name=".ForgotPassword" />
+        <activity android:name=".ReportarError" />
+        <activity android:name=".CambiarContrasena" />
         <activity android:name=".RecieveNewParking" />
         <activity android:name=".Resume">
             <intent-filter>
@@ -57,12 +57,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserHomepage" />
-        <activity android:name=".History_2_user" />
+        <activity android:name=".HistoriaUsuario" />
         <activity android:name=".UserReviewHistory" />
         <activity android:name=".MessageUsersActivity" />
-        <activity android:name=".HELP_USER" />
+        <activity android:name=".AyudarUsuario" />
         <activity android:name=".OwnerHomepage" />
-        <activity android:name=".ChooseDepartureTimeActivity" />
+        <activity android:name=".ElegirHoraSalidaActivity" />
         <activity android:name=".UserReviewHistoryPage2" />
 
     </application>

@@ -103,7 +103,7 @@ public class UserReviewHistory extends AppCompatActivity {
                         temp.setKey("RESERVATION " + ctr + ":");
                         temp.setDate(child.child("Date").getValue(String.class));
                         temp.setRate(child.child("Rate").getValue(String.class));
-                        temp.setClockIn(child.child("Clockin").getValue(String.class));
+                        temp.setClockIn(child.child("Reloj").getValue(String.class));
                         temp.setClockOut(child.child("Clockout").getValue(String.class));
                         temp.setUser(child.child("User").getValue(String.class));
 

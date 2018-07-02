@@ -6,13 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.HashMap;
@@ -51,7 +48,7 @@ public class UserHomepage extends AppCompatActivity {
         }
         else
         {
-            Intent intent = new Intent(UserHomepage.this, LoginPage.class);
+            Intent intent = new Intent(UserHomepage.this, InicioSesion.class);
             startActivity(intent);
         }
 
@@ -104,7 +101,7 @@ public class UserHomepage extends AppCompatActivity {
                 Quest.setNegativeButton("Log out", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(UserHomepage.this, LoginPage.class);
+                        Intent intent = new Intent(UserHomepage.this, InicioSesion.class);
                         FirebaseAuth.getInstance().signOut();
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         Toast.makeText(UserHomepage.this, "Salida exitosa", Toast.LENGTH_LONG).show();
@@ -132,7 +129,7 @@ public class UserHomepage extends AppCompatActivity {
                 String assignedSpot = iLink.userReservationSpot;
                 double spotRate = iLink.userReservationSpotRate;
 
-                Intent intent = new Intent(UserHomepage.this, Clockin.class);
+                Intent intent = new Intent(UserHomepage.this, Reloj.class);
                 intent.putExtra("arriveHour", arriveHour);
                 intent.putExtra("arriveMin", arriveMin);
                 intent.putExtra("departHour", departHour);
@@ -156,7 +153,7 @@ public class UserHomepage extends AppCompatActivity {
                 String assignedSpot = iLink.userReservationSpot;
                 double spotRate = iLink.userReservationSpotRate;
 
-                Intent intent = new Intent(UserHomepage.this, CountDownCheckOut.class);
+                Intent intent = new Intent(UserHomepage.this, conteo.class);
                 intent.putExtra("arriveHour", arriveHour);
                 intent.putExtra("arriveMin", arriveMin);
                 intent.putExtra("departHour", departHour);
@@ -193,8 +190,8 @@ public class UserHomepage extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                // if emergencyButt pressed, send user to Emergency page
-                Intent intent = new Intent(UserHomepage.this, Emergency.class);
+                // if emergencyButt pressed, send user to Emergencia page
+                Intent intent = new Intent(UserHomepage.this, Emergencia.class);
                 startActivity(intent);
             }
         });
@@ -226,8 +223,8 @@ public class UserHomepage extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                // if helpButt pressed, send user to HELP_USER page
-                Intent intent = new Intent(UserHomepage.this, HELP_USER.class);
+                // if helpButt pressed, send user to AyudarUsuario page
+                Intent intent = new Intent(UserHomepage.this, AyudarUsuario.class);
                 startActivity(intent);
             }
         });

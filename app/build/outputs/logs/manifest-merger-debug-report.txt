@@ -156,18 +156,18 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:20:27-74
-activity#ucsd.cse110fa16.group14.ipark.DriverRegistration
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:27:9-56
+activity#ucsd.cse110fa16.group14.ipark.RegistroConductor
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:27:9-55
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:27:19-53
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:27:19-52
 activity#ucsd.cse110fa16.group14.ipark.Payment
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:29:9-45
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:29:19-42
-activity#ucsd.cse110fa16.group14.ipark.Clockin
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:30:9-45
+activity#ucsd.cse110fa16.group14.ipark.Reloj
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:30:9-43
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:30:19-42
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:30:19-40
 activity#ucsd.cse110fa16.group14.ipark.activity_revision
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:31:9-55
 	android:name
@@ -180,22 +180,22 @@ activity#ucsd.cse110fa16.group14.ipark.PersonalInfo
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:33:9-50
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:33:19-47
-activity#ucsd.cse110fa16.group14.ipark.CommentBoss
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:37:9-49
+activity#ucsd.cse110fa16.group14.ipark.CuentaRegresiva
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:37:9-53
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:37:19-46
-activity#ucsd.cse110fa16.group14.ipark.BossEmergency
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:38:9-51
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:37:19-50
+activity#ucsd.cse110fa16.group14.ipark.DirigirEmergencia
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:38:9-55
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:38:19-48
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:38:19-52
 activity#ucsd.cse110fa16.group14.ipark.DirigirMapa
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:39:9-49
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:39:19-46
-activity#ucsd.cse110fa16.group14.ipark.comment
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:40:9-45
+activity#ucsd.cse110fa16.group14.ipark.Comentario
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:40:9-48
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:40:19-42
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:40:19-45
 activity#ucsd.cse110fa16.group14.ipark.Reservation
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:41:9-49
 	android:name
@@ -208,10 +208,10 @@ activity#ucsd.cse110fa16.group14.ipark.ReportIllegal
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:43:9-51
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:43:19-48
-activity#ucsd.cse110fa16.group14.ipark.Emergency
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:44:9-47
+activity#ucsd.cse110fa16.group14.ipark.Emergencia
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:44:9-48
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:44:19-44
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:44:19-45
 activity#ucsd.cse110fa16.group14.ipark.Settings
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:45:9-46
 	android:name
@@ -230,10 +230,10 @@ activity#ucsd.cse110fa16.group14.ipark.Messages
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:50:9-46
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:50:19-43
-activity#ucsd.cse110fa16.group14.ipark.ErrorReport
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:51:9-49
+activity#ucsd.cse110fa16.group14.ipark.ReportarError
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:51:9-51
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:51:19-46
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:51:19-48
 activity#ucsd.cse110fa16.group14.ipark.ForgotPassword
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:52:9-52
 	android:name
@@ -264,18 +264,18 @@ activity#ucsd.cse110fa16.group14.ipark.MessageUsersActivity
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:62:9-58
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:62:19-55
-activity#ucsd.cse110fa16.group14.ipark.HELP_USER
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:63:9-47
+activity#ucsd.cse110fa16.group14.ipark.AyudarUsuario
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:63:9-51
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:63:19-44
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:63:19-48
 activity#ucsd.cse110fa16.group14.ipark.OwnerHomepage
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:64:9-51
 	android:name
 		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:64:19-48
-activity#ucsd.cse110fa16.group14.ipark.ChooseDepartureTimeActivity
-ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:65:9-65
+activity#ucsd.cse110fa16.group14.ipark.ElegirHoraSalidaActivity
+ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:65:9-62
 	android:name
-		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:65:19-62
+		ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:65:19-59
 activity#ucsd.cse110fa16.group14.ipark.UserReviewHistoryPage2
 ADDED from C:\Users\CAMINANTE135\AndroidStudioProjects\SAIMT CORREGIDO\app\src\main\AndroidManifest.xml:66:9-60
 	android:name

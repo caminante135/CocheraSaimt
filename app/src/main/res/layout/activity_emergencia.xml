@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_emergency"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ucsd.cse110fa16.group14.ipark.Emergencia">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button25"
+        android:layout_alignBottom="@+id/button25"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp"
+        android:background="#FFFF00"
+        android:text="Cancelar" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergencyRadioGroup"
+        android:layout_above="@+id/textView53"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp">
+
+        <RadioButton
+            android:id="@+id/fire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:checked="false"
+            android:text="Fuego"
+            android:textSize="25dp" />
+
+
+        <RadioButton
+            android:id="@+id/personalSafety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Seguridad Personal"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/propertyLoss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pérdida de propiedad"
+            android:textSize="25dp" />
+
+
+        <RadioButton
+            android:id="@+id/engineOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Motor Apagado"
+            android:textSize="25dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:background="#CC0000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Por favor especifica el tipo de emergencia"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_height="40dp"
+        android:id="@+id/button28"
+        android:background="@mipmap/help"
+        android:layout_alignBottom="@+id/textView50"
+        android:layout_alignParentEnd="true"
+        android:layout_width="40dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="26dp"
+        android:background="#660000"
+        android:text="Enviar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button23"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="86dp"
+        android:text=" ¡Su seguridad es nuestra principal preocupación!"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/parkingNumber"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="Número de Estacionamiento"
+        android:inputType="text" />
+
+</RelativeLayout>

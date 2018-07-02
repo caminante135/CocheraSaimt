@@ -27,6 +27,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="ucsd.cse110fa16.group14.ipark.LoginPage" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.SplashActivity" >
@@ -40,31 +41,31 @@
         <!-- ======= -->
         <!-- <activity android:name=".FoundSpaceAndReserve" /> -->
 
-        <activity android:name="ucsd.cse110fa16.group14.ipark.DriverRegistration" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.RegistroConductor" />
         <!-- >>>>>>> 6e2eecc5cfbcfd58750e585524413a7a3e4366be -->
         <activity android:name="ucsd.cse110fa16.group14.ipark.Payment" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.Clockin" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Reloj" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.activity_revision" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.CountDownCheckOut" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.PersonalInfo" />
         =======
 
         >>>>>>> d616484625deada12c4b671e2a9ea916f5f9369b
-        <activity android:name="ucsd.cse110fa16.group14.ipark.CommentBoss" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.BossEmergency" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.CuentaRegresiva" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.DirigirEmergencia" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.DirigirMapa" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.comment" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Comentario" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Reservation" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.MapDirectional" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.ReportIllegal" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.Emergency" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.Emergencia" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Settings" />
         <activity
             android:name="ucsd.cse110fa16.group14.ipark.PopUp"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.RecieveReports" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Messages" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.ErrorReport" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.ReportarError" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.ForgotPassword" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.RecieveNewParking" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.Resume" >
@@ -76,9 +77,9 @@
         <activity android:name="ucsd.cse110fa16.group14.ipark.History_2_user" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.UserReviewHistory" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.MessageUsersActivity" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.HELP_USER" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.AyudarUsuario" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.OwnerHomepage" />
-        <activity android:name="ucsd.cse110fa16.group14.ipark.ChooseDepartureTimeActivity" />
+        <activity android:name="ucsd.cse110fa16.group14.ipark.ElegirHoraSalidaActivity" />
         <activity android:name="ucsd.cse110fa16.group14.ipark.UserReviewHistoryPage2" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"

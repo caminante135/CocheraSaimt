@@ -47,7 +47,7 @@ public class OwnerHomepageTest5 {
         }
 
 
-        // click on the Emergency button
+        // click on the Emergencia button
         onView(withId(R.id.emergency1)).perform(click());
         try {
             Thread.sleep(500);

@@ -73,7 +73,7 @@ public class PersonalInfo extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PersonalInfo.this, ForgotPassword.class);
+                Intent intent = new Intent(PersonalInfo.this, CambiarContrasena.class);
                 startActivity(intent);
             }
         });

@@ -57,7 +57,7 @@ public class MessageUsersActivity extends AppCompatActivity {
         msgSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String comment = editText.getText().toString(); // get the user's comment
+                String comment = editText.getText().toString(); // get the user's Comentario
 
                 // get the current date
                 Date date = new Date();

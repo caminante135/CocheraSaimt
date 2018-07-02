@@ -1,20 +1,16 @@
 package ucsd.cse110fa16.group14.ipark;
 
 import android.support.test.espresso.action.ViewActions;
-import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -27,10 +23,10 @@ public class CommentTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Rule
-    public ActivityTestRule<comment> mActivityRule = new ActivityTestRule<>(
-            comment.class);
+    public ActivityTestRule<Comentario> mActivityRule = new ActivityTestRule<>(
+            Comentario.class);
 
-    // expected outcome: comment is successfully sent
+    // expected outcome: Comentario is successfully sent
     // results: test passed
     @Test
     public void sendAComment() throws InterruptedException{
@@ -42,9 +38,9 @@ public class CommentTest {
             e.printStackTrace();
         }
 
-        // type comment into the userComment EditText
+        // type Comentario into the userComment EditText
         onView(withId(R.id.userComment))
-                .perform(typeText("Test: submitting the comment..."), ViewActions.closeSoftKeyboard());
+                .perform(typeText("Test: submitting the Comentario..."), ViewActions.closeSoftKeyboard());
 
         try {
             Thread.sleep(500);
@@ -81,9 +77,9 @@ public class CommentTest {
             e.printStackTrace();
         }
 
-        // type comment into the userComment EditText
+        // type Comentario into the userComment EditText
         onView(withId(R.id.userComment))
-                .perform(typeText("Test: Canceling the comment... goes back to User Homepage."), ViewActions.closeSoftKeyboard());
+                .perform(typeText("Test: Canceling the Comentario... goes back to User Homepage."), ViewActions.closeSoftKeyboard());
 
         try {
             Thread.sleep(500);

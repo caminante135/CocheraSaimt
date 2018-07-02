@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_driver_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ucsd.cse110fa16.group14.ipark.RegistroConductor">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusableInTouchMode="true" >
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/help"
+            android:background="@mipmap/help"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/new_border"
+            android:text="Reiniciar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/notARobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/submit_registration"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp"
+            android:text="No soy un Robot" />
+
+        <Button
+            android:id="@+id/submit_registration"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/lighter_border"
+            android:text="Enviar"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/new_home"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/registrationHomeButton"
+            android:background="@drawable/common_full_open_on_phone"
+            android:layout_alignBottom="@+id/help" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="REGISTRO DEL USUARIO"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Sorry, this username is already taken.\nPlease try again with a different username."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/invalidUsernameTV"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/userPassword"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/selectAudience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userPassword"
+        android:layout_marginTop="12dp"
+        android:text="Lo sentimos, por favor intente de nuevo con un correo electrónico diferente."
+        android:textColor="@android:color/holo_red_light" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView40"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/firstName"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lastName"
+        android:layout_below="@+id/lastName"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/license"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailAddress"
+        android:layout_below="@+id/emailAddress"
+        android:ems="10"
+        android:hint="Número de Placa"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/license"
+        android:layout_below="@+id/license"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userName"
+        android:layout_below="@+id/userName"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+</RelativeLayout>

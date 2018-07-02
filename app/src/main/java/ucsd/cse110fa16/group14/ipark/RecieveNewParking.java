@@ -31,7 +31,7 @@ public class RecieveNewParking extends AppCompatActivity {
         checkIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(RecieveNewParking.this, Clockin.class);
+                Intent intent = new Intent(RecieveNewParking.this, Reloj.class);
                 startActivity(intent);
             }
         });

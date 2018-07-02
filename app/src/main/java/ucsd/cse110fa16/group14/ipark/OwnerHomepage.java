@@ -123,7 +123,7 @@ public class OwnerHomepage extends AppCompatActivity {
             public void onClick(View v) {
                 root.child("NewEmergency").removeValue();
 
-                Intent intent = new Intent(OwnerHomepage.this, CommentBoss.class);
+                Intent intent = new Intent(OwnerHomepage.this, CuentaRegresiva.class);
                 startActivity(intent);
             }
         });
@@ -145,7 +145,7 @@ public class OwnerHomepage extends AppCompatActivity {
             public void onClick(View v) {
                 root.child("NewEmergency").removeValue();
 
-                Intent intent = new Intent(OwnerHomepage.this, BossEmergency.class);
+                Intent intent = new Intent(OwnerHomepage.this, DirigirEmergencia.class);
                 startActivity(intent);
             }
         });
@@ -169,7 +169,7 @@ public class OwnerHomepage extends AppCompatActivity {
                 Quest.setNegativeButton("Log out", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(OwnerHomepage.this, LoginPage.class);
+                        Intent intent = new Intent(OwnerHomepage.this, InicioSesion.class);
                         FirebaseAuth.getInstance().signOut();
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         Toast.makeText(OwnerHomepage.this, "Salida exitosa", Toast.LENGTH_LONG).show();

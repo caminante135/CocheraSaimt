@@ -12,8 +12,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.view.inputmethod.InputMethodManager;
-import android.content.Context;
 
 import com.firebase.client.Firebase;
 import com.google.firebase.auth.FirebaseAuth;
@@ -87,7 +85,7 @@ public class MapDirectional extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MapDirectional.this, Emergency.class);
+                Intent intent = new Intent(MapDirectional.this, Emergencia.class);
                 startActivity(intent);
 
             }

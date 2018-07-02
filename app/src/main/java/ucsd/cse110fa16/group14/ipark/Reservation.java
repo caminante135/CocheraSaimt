@@ -35,7 +35,7 @@ public class Reservation extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Reservation.this, Clockin.class);
+                Intent intent = new Intent(Reservation.this, Reloj.class);
                 startActivity(intent);
             }
         });

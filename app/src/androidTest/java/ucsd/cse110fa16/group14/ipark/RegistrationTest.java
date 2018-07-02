@@ -1,20 +1,16 @@
 package ucsd.cse110fa16.group14.ipark;
 
 import android.support.test.espresso.action.ViewActions;
-import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -26,8 +22,8 @@ public class RegistrationTest {
     private FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Rule
-    public ActivityTestRule<DriverRegistration> mActivityRule = new ActivityTestRule<>(
-            DriverRegistration.class);
+    public ActivityTestRule<RegistroConductor> mActivityRule = new ActivityTestRule<>(
+            RegistroConductor.class);
 
     // expected result: user is informed the email already exists => can't register
     // results: test passed

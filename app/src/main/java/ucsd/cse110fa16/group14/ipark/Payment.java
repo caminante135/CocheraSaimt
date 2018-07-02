@@ -68,7 +68,7 @@ public class Payment extends AppCompatActivity {
         double currentPrice = iLink.getDefaultPrice();
         currPrice.setText("El precio actual es: " + "S/" + currentPrice + "/hora");
 
-        // generate the Clockin and Clockout times
+        // generate the Reloj and Clockout times
         startTimeText.setText(generateTimeText(bundle.getInt("arriveHour"), bundle.getInt("arriveMin")));
         endTimeText.setText(generateTimeText(bundle.getInt("departHour"), bundle.getInt("departMin")));
 
@@ -82,7 +82,7 @@ public class Payment extends AppCompatActivity {
             public void onClick(View v) {
                 String rate = total.getText().toString();
 
-                // generate the Clockin and Clockout time
+                // generate the Reloj and Clockout time
                 String clockInTime = generateTimeText(bundle.getInt("arriveHour"), bundle.getInt("arriveMin"));
                 String clockOutTime = generateTimeText(bundle.getInt("departHour"), bundle.getInt("departMin"));
 
@@ -119,7 +119,7 @@ public class Payment extends AppCompatActivity {
 
                     // create child fields for reservation in Firebase
                     Firebase rateChild = hasChild.child("Rate");
-                    Firebase clockInChild = hasChild.child("Clockin");
+                    Firebase clockInChild = hasChild.child("Reloj");
                     Firebase clockOutChild = hasChild.child("Clockout");
                     Firebase dateChild = hasChild.child("Date");
                     Firebase userChild = hasChild.child("User");
@@ -134,7 +134,7 @@ public class Payment extends AppCompatActivity {
                     // Set order for new parking spot
                     iLink.setOrder(spotAssign, clockInTimeInSec, clockOutTimeInSec);
 
-                    Intent intent = new Intent(Payment.this, CountDownCheckOut.class);
+                    Intent intent = new Intent(Payment.this, conteo.class);
                     intent.putExtra("arriveHour", bundle.getInt("arriveHour"));
                     intent.putExtra("arriveMin", bundle.getInt("arriveMin"));
                     intent.putExtra("departHour", bundle.getInt("departHour"));

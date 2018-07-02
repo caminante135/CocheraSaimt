@@ -1,7 +1,7 @@
-#Mon Jul 02 01:42:49 COT 2018
-base.0=C\:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
-path.1=classes2.dex
+#Mon Jul 02 03:31:45 COT 2018
+base.0=C\:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+base.1=C\:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8

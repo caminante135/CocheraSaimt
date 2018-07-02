@@ -48,12 +48,12 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\45aae757e1dbe23b38e175d570b327e7\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review_history_page2.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_user_review_history_page2.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review_history_page2.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_user_review_history_page2.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
@@ -104,28 +104,28 @@
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\45aae757e1dbe23b38e175d570b327e7\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\705dfdb064697294bc957dc29d6b0428\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\45aae757e1dbe23b38e175d570b327e7\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -178,10 +178,6 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -436,10 +432,6 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\45aae757e1dbe23b38e175d570b327e7\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose_departure_time.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_choose_departure_time.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_next.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\mipmap-hdpi\\next.png"
     },
@@ -480,8 +472,8 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_report.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_error_report.xml"
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emergencia.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_emergencia.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_review_history.png.flat",
@@ -534,6 +526,10 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_emergency_button.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\mipmap-xhdpi\\emergency_button.png"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reloj.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_reloj.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_compose.png.flat",
@@ -704,10 +700,6 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emergency.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_emergency.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -726,6 +718,10 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ayudar_usuario.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_ayudar_usuario.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -1124,6 +1120,10 @@
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\mipmap-xxhdpi\\help.png"
     },
     {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comentario.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_comentario.xml"
+    },
+    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\45aae757e1dbe23b38e175d570b327e7\\res\\drawable\\design_fab_background.xml"
     },
@@ -1152,16 +1152,16 @@
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\drawable-v21\\logo2.jpeg"
     },
     {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registro_conductor.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_registro_conductor.xml"
+    },
+    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sos2.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\mipmap-mdpi\\sos2.png"
-    },
-    {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_clockin.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_clockin.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
@@ -1428,10 +1428,6 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_boss_emergency.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_boss_emergency.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b274eb111a6664e1283787d3ef847267\\res\\layout\\notification_action_tombstone.xml"
     },
@@ -1502,10 +1498,6 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review_history.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_user_review_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comment.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
@@ -1664,8 +1656,8 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help__user.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_help__user.xml"
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cuenta_regresiva.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_cuenta_regresiva.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2164,16 +2156,16 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comment_boss.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_comment_boss.xml"
-    },
-    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_contrasena.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\drawable-hdpi\\ic_action_contrasena.png"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dirigir_comentario.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_dirigir_comentario.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -2252,6 +2244,10 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_elegir_hora_salida.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_elegir_hora_salida.xml"
+    },
+    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_reserve_button.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\mipmap-xxhdpi\\reserve_button.png"
     },
@@ -2314,10 +2310,6 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_count_down_check_out.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_count_down_check_out.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2406,6 +2398,10 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\705dfdb064697294bc957dc29d6b0428\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reportar_error.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_reportar_error.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -2620,6 +2616,10 @@
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\705dfdb064697294bc957dc29d6b0428\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
+        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dirigir_emergencia.xml.flat",
+        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_dirigir_emergencia.xml"
+    },
+    {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e0d5204148276c10ce67a8c5beda4e8c\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -2750,10 +2750,6 @@
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\CAMINANTE135\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\f1adb9c8b7996c7c0f14d732877afe66\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_driver_registration.xml.flat",
-        "source": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\src\\main\\res\\layout\\activity_driver_registration.xml"
     },
     {
         "merged": "C:\\Users\\CAMINANTE135\\AndroidStudioProjects\\SAIMT CORREGIDO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
