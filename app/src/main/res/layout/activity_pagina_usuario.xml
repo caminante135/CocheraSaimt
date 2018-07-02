@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
+    tools:context="ucsd.cse110fa16.group14.ipark.PaginaUsuario">
+
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reviewHistory"
+        android:layout_below="@+id/reviewHistory"
+        android:ems="6"
+        android:text="Historial"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/checkStatus"
+        android:ems="6"
+        android:text="Estado"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/emergency"
+        android:ems="6"
+        android:text="Cerrar Sesión"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/viewMap"
+        android:layout_below="@+id/viewMap"
+        android:ems="6"
+        android:text="Mapa"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/check_status"
+        android:adjustViewBounds="true"
+        android:layout_width="110dp"
+        tools:background="@android:color/background_light"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/checkStatus"
+        android:layout_alignTop="@+id/viewMap"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF" />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_width="110dp"
+        tools:background="@android:color/background_light"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/emergency_button"
+        android:id="@+id/emergency"
+        android:layout_below="@+id/textView39"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emergency"
+        android:layout_below="@+id/emergency"
+        android:ems="8"
+        android:text="Emergencia"
+        android:textAlignment="center"
+        android:textColor="#CC0000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/personal_info"
+        android:id="@+id/personalInfo"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:layout_width="110dp"
+        tools:background="@android:color/background_light"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/personalInfo"
+        android:layout_below="@+id/personalInfo"
+        android:ems="6"
+        android:text="Perfil"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reserveButton"
+        android:layout_below="@+id/reserveButton"
+        android:ems="6"
+        android:text="Reserva"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/review_history"
+        android:adjustViewBounds="true"
+        android:layout_width="110dp"
+        tools:background="@android:color/background_light"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/reviewHistory"
+        android:layout_below="@+id/text2"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:background="#FFFFFF" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/map_button"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_width="110dp"
+        tools:background="#FFFFFF"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/viewMap"
+        android:layout_below="@+id/textView37"
+        android:layout_alignStart="@+id/textView37"
+        tools:ignore="ContentDescription"
+        android:background="#FFFFFF" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/reserve_button"
+        android:id="@+id/reserveButton"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:layout_width="110dp"
+        tools:background="#FFFFFF"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/help"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        tools:background="#FFFFFF"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/reserveButton"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView38"
+        android:layout_below="@+id/imageButton"
+        android:ems="6"
+        android:text="Ayuda"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        app:srcCompat="@mipmap/logout_button"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_width="110dp"
+        tools:background="@android:color/background_light"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/logoutButton"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView38"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/mail1"
+        tools:background="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="102dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/saimtt" />
+
+
+</RelativeLayout>
