@@ -19,7 +19,7 @@
         android:layout_alignBottom="@+id/button25"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="31dp"
-        android:background="#FFFF00"
+        android:background="#0080ff"
         android:text="Cancelar" />
 
     <RadioGroup
