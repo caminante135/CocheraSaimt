@@ -243,13 +243,7 @@
         app:srcCompat="@mipmap/mail1"
         tools:background="@android:color/background_light" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="127dp"
-        android:layout_height="102dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/saimtt" />
+
 
 
 </RelativeLayout>

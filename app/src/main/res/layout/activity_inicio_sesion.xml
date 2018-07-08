@@ -52,7 +52,8 @@
         android:layout_marginBottom="127dp"
         android:clickable="false"
         android:text="¿Olvidaste tu Constraseña?"
-        android:textColor="@android:color/holo_blue_dark" />
+
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="40dp"
